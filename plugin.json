@@ -1,8 +1,8 @@
 {
-      "name":"HelloWorld",
+      "name":"PlentyTest1",
       "description":"My first plugin",
-      "namespace":"HelloWorld",
+      "namespace":"PlentyTest1",
       "author":"Christian Moll",
       "type":"template",
-      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
+      "serviceProvider":"PlentyTest1\\Providers\\PlentyTest1ServiceProvider"
 }
