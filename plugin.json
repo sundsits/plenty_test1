@@ -4,6 +4,6 @@
       "namespace":"PlentyTest1",
       "author":"SundS ITS",
       "type":"template",
-      "serviceProvider":"PlentyTest1\\Providers\\PlentyTest1ServiceProvider",
+      "serviceProvider":"PlentyTest1\\Providers\\PlentyTest1ServiceProvider"
      
 }
