@@ -3,7 +3,7 @@ namespace PlentyTest1\Controllers;
 
 use Plenty\Plugin\Controller;
 use Plenty\Plugin\Templates\Twig;
-//use Plenty\Modules\Plugin\Libs\Contracts\LibraryCallContract;
+use Plenty\Modules\Plugin\Libs\Contracts\LibraryCallContract;
 
 /**
  * Class ContentController
@@ -16,15 +16,16 @@ class ContentController extends Controller
 	 * @param LibraryCallContract $libCall
 	 * @return string
 	 */
-	public function sayHello(Twig $twig):string
+	public function sayHello(
+		Twig $twig,
+		LibraryCallContract $libCall
+	):string
 	{
  
-		/*
-        $packagistFTPResult =
+		$packagistFTPResult =
 			$libCall->call(
 				'HelloWorld::ftpclient_connector'
 			);
-        */
-		return $twig->render('HelloWorld::content.hello');
+		return $twig->render('PlentyTest1::content.hello', $packagistFTPResult);
 	}
 }
