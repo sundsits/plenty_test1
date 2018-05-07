@@ -1,1 +1,13 @@
 <h1>Hello World, and more...</h1>
+<br />
+<br />
+TEST:<br />
+
+<p>{{ packagistFTPResult.total }} Results</p>
+<ul>
+    {% for packagistItem in packagistFTPResult.results %}
+        <li>{{ packagistItem.name }} : {{ packagistItem.repository }}</li>
+    {% else %}
+        <li>No entries</li>
+    {% endfor %}
+</ul>
