@@ -16,9 +16,7 @@ class ContentController extends Controller
 	 * @param LibraryCallContract $libCall
 	 * @return string
 	 */
-	public function sayHello(
-		Twig $twig
-	):string
+	public function sayHello(Twig $twig):string
 	{
  
 		/*
