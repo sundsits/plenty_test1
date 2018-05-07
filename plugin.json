@@ -5,7 +5,5 @@
       "author":"SundS ITS",
       "type":"template",
       "serviceProvider":"PlentyTest1\\Providers\\PlentyTest1ServiceProvider",
-      "dependencies" : {
-          "Nicolab/php-ftp-client": "1.4.1"
-      }      
+     
 }
