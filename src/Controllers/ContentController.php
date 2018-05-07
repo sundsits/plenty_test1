@@ -26,6 +26,6 @@ class ContentController extends Controller
 			$libCall->call(
 				'HelloWorld::ftpclient_connector'
 			);
-		return $twig->render('HelloWorld::content.hello', $packagistFTPResult);
+		return $twig->render('HelloWorld::content.hello');
 	}
 }
