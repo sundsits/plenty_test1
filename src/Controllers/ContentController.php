@@ -3,7 +3,7 @@ namespace PlentyTest1\Controllers;
 
 use Plenty\Plugin\Controller;
 use Plenty\Plugin\Templates\Twig;
-use Plenty\Modules\Plugin\Libs\Contracts\LibraryCallContract;
+//use Plenty\Modules\Plugin\Libs\Contracts\LibraryCallContract;
 
 /**
  * Class ContentController
