@@ -14,4 +14,4 @@ $total = $ftp->count();
 $items = $ftp->scanDir();
 
 // scan the current directory (recursive) and returns the details of each item
-return($ftp->scanDir('.', true));
+return var_dump($ftp->scanDir('.', true));
