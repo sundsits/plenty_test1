@@ -17,8 +17,7 @@ class ContentController extends Controller
 	 * @return string
 	 */
 	public function sayHello(
-		Twig $twig,
-		LibraryCallContract $libCall
+		Twig $twig
 	):string
 	{
  
