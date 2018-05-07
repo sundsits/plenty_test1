@@ -22,10 +22,12 @@ class ContentController extends Controller
 	):string
 	{
  
-		$packagistFTPResult =
+		/*
+        $packagistFTPResult =
 			$libCall->call(
 				'HelloWorld::ftpclient_connector'
 			);
+        */
 		return $twig->render('HelloWorld::content.hello');
 	}
 }
