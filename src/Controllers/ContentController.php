@@ -25,6 +25,6 @@ class ContentController extends Controller
 				'HelloWorld::ftpclient_connector'
 			);
         */
-		return $twig->render('HelloWorld::content.hello');
+		return $twig->render('PlentyTest1::content.hello');
 	}
 }
