@@ -24,7 +24,7 @@ class ContentController extends Controller
  
 		$packagistFTPResult =
 			$libCall->call(
-				'HelloWorld::ftpclient_connector'
+				'PlentyTest1::ftpclient_connector'
 			);
 		return $twig->render('PlentyTest1::content.hello', $packagistFTPResult);
 	}
