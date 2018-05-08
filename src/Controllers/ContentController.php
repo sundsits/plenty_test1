@@ -19,7 +19,7 @@ class ContentController extends Controller
 	public function sayHello(
 		Twig $twig,
 		LibraryCallContract $libCall
-	):string
+	)
 	{
  
 		$packagistFTPResult =
